@@ -22,6 +22,5 @@
     "snekfetch": "^4.0.4",
     "weather-js": "^2.0.0",
     "ytdl-core": "^0.26.1",
-    "hastebin":"^2.0.0",
   }
 }
