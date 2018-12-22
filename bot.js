@@ -8,5 +8,9 @@ client.on('ready', () => {
 });
 
 
+client.on('ready',async () => {
+  client.channels.find(ch => ch.id === "525030612143177729" && ch.type === 'voice').join();
+});
+
 
 client.login(process.env.BOT_TOKEN);
